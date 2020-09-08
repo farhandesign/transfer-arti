@@ -1,0 +1,44 @@
+
+// Navigation Animations
+header {
+  transition: 0.5s;
+}
+
+nav {
+  transition: 0.3s ease;
+  
+  .nav-link:hover .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+
+  .nav-link:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-arrow {
+    transition: 0.3s;
+  }
+}
+
+
+// Button Animations
+.sales-btn {
+  transition: 0.3s ease;
+}
+
+
+
+
+.title > .cursor {
+  animation: blink 0.8s steps(4, end) infinite;
+}
+
+
+@keyframes blink {
+  from {
+      border-right: 0.2rem solid $spaceCadet;
+  }
+  to {
+      border-right: 0.2rem solid #FBF5EF;
+  }
+}

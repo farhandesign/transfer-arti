@@ -1,0 +1,45 @@
+p {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.logo {
+  letter-spacing: 1px;
+  font-size: $bigText;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: $subText;
+  font-weight: 500;
+}
+
+.sales-btn {
+  font-size: $subText;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: $subText;
+}
+
+.c-inner {
+  font-size: 13px;
+}
+
+footer {
+  font-size: 12px;
+
+  h5 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+}

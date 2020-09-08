@@ -1,0 +1,93 @@
+// ***************
+// Global
+//****************
+
+a {
+    color: inherit;
+}
+
+
+
+p {
+    color: $queenBlue;
+}
+
+
+// ***************
+// Buttons
+//****************
+
+.sales-btn {
+    color: $white;
+    background: #F64C72;
+}
+.sales-btn:hover {
+    background: $blueSapphire;
+}
+
+
+
+// ***************
+// Navigation
+//****************
+header {
+    background: $primary;
+}
+nav {
+    color: $spaceCadet;
+}
+
+.header-scrolled {
+    background: $white;
+    box-shadow: 0 1px 8px $slateGrey;
+}
+
+.dropdown-menu {
+    filter: drop-shadow(0px 0px 4px $slateGrey);
+  
+    .dropdown-content {
+        background: $white;
+
+        a:hover, a:active {
+            color: #B395DB;
+        }
+    }
+}
+
+
+
+
+// ***************
+// Home 
+//****************
+.jumbotron {
+    background: $primary;
+}
+
+.title {
+    color: $spaceCadet;
+}
+
+  // Type Writer Cursor
+.title > .cursor {
+    border-right: 0.2rem solid $spaceCadet;
+}
+
+
+// ***************
+// DROPDOWN MENU
+//****************
+.i-column {
+    background: #F2F5F6;
+}    
+
+
+// ***************
+// Footer
+//****************
+
+footer {
+    background: $oxfordBlue;
+}
+
+

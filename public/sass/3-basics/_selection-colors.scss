@@ -36,7 +36,9 @@ header {
 nav {
     color: $spaceCadet;
 }
-
+.nav-white {
+    background: white;
+}
 .header-scrolled {
     background: $white;
     box-shadow: 0 1px 8px $slateGrey;

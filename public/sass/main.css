@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap");
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -219,6 +219,10 @@ header {
 
 nav {
   color: #32325D;
+}
+
+.nav-white {
+  background: white;
 }
 
 .header-scrolled {
@@ -742,5 +746,97 @@ footer .container .social-media {
 
 .home-page .infographics div img {
   width: 55%;
+}
+
+.body-smart-insights {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-smart-insights .top {
+  width: 90%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-smart-insights .top .text-content {
+  width: 65%;
+  height: auto;
+}
+
+.body-smart-insights .top .text-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #32325D;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.body-smart-insights .top .text-content p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.body-smart-insights .top img {
+  width: 30%;
+}
+
+.body-smart-insights .bottom {
+  width: 100%;
+  height: auto;
+  background: #F6F8FA;
+  margin-bottom: 120px;
+}
+
+.body-smart-insights .bottom .bottom-content {
+  margin: 120px auto;
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body-smart-insights .bottom .bottom-content .point {
+  width: 310px;
+  height: auto;
+}
+
+.body-smart-insights .bottom .bottom-content .point img {
+  width: 64px;
+}
+
+.body-smart-insights .bottom .bottom-content .point h4 {
+  font-size: 16px;
+  color: #32325D;
+  line-height: 28px;
+}
+
+.body-smart-insights .bottom .bottom-content .point p {
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */

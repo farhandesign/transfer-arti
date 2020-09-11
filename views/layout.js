@@ -27,7 +27,7 @@ module.exports = ({ content }) => {
                         <h4>Key Capabilities</h4>
                         <div class="c-inner">
                           <div class="col">
-                            <a href="/insights"><img class="i" src="/img/icon-four.svg" alt="">Smart Insights</a>
+                            <a class="thing" href="/insights"><img class="i" src="/img/icon-four.svg" alt="">Smart Insights</a>
                             <a href=""><img class="i" src="/img/icon-one.svg" alt="">Predictive Ad-Audience</a>
                             <a href=""><img class="i" src="/img/icon-three.svg" alt="">Campaign Trigger Portal</a>
                           </div>

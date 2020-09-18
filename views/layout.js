@@ -29,11 +29,11 @@ module.exports = ({ content }) => {
                           <div class="col">
                             <a class="thing" href="/insights"><img class="i" src="/img/icon-four.svg" alt="">Smart Insights</a>
                             <a href=""><img class="i" src="/img/icon-one.svg" alt="">Predictive Ad-Audience</a>
-                            <a href=""><img class="i" src="/img/icon-three.svg" alt="">Campaign Trigger Portal</a>
+                            <a href="/campaign-portal"><img class="i" src="/img/icon-three.svg" alt="">Campaign Trigger Portal</a>
                           </div>
                           <div class="col">
                             <a href=""><img class="i" src="/img/icon-two.svg" alt="">Purchase Pattern Identification</a>
-                            <a href=""><img class="i" src="/img/icon-five.svg" alt="">Multi-Moment Marketing</a>
+                            <a class="thing" href="/marketing"><img class="i" src="/img/icon-five.svg" alt="">Multi-Moment Marketing</a>
                           </div>    
                         </div>
                         
@@ -69,7 +69,7 @@ module.exports = ({ content }) => {
           </div>
 
           <button class="sales-btn">
-            <a href="">TALK TO SALES</a>
+            <a href="">Request Demo</a>
           </button>
 
         </nav>

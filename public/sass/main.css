@@ -556,15 +556,14 @@ footer .container .social-media {
 .home-page .jumbotron {
   width: 100%;
   height: 80vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 65% 35%;
-      grid-template-columns: 65% 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
 }
 
 .home-page .jumbotron .jumbotron-content-container {
-  width: 100%;
+  width: 65%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -579,7 +578,7 @@ footer .container .social-media {
 
 .home-page .jumbotron .jumbotron-content-container .jumbotron-content {
   margin-left: 150px;
-  width: 50%;
+  width: 620px;
   height: 60%;
   display: -ms-grid;
   display: grid;
@@ -605,6 +604,7 @@ footer .container .social-media {
 .home-page .jumbotron .jumbotron-content-container .jumbotron-content .row2 {
   width: 100%;
   height: 100%;
+  background: lightseagreen;
 }
 
 .home-page .jumbotron .jumbotron-content-container .jumbotron-content .row2 p {
@@ -613,7 +613,7 @@ footer .container .social-media {
 }
 
 .home-page .jumbotron .particles-bg {
-  width: 100%;
+  width: 35%;
   height: 100%;
 }
 

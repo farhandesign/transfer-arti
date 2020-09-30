@@ -5,6 +5,7 @@
         width: 100%;
         height: 80vh;
         display: flex;
+        position: relative;
         
         overflow: hidden;
 
@@ -29,15 +30,19 @@
                     align-items: flex-end;
                     .title {
                         margin: 0;
+                        font-size: 56px;
+                        font-weight: bold;
                     }  
                 }
                 .row2 {   
                     width: 100%;
                     height: 100%;
-                    background: lightseagreen;
                     p  {
                         margin: 0;
                         margin-top: 28px;
+                        font-size: 16px;
+                        line-height: 32px;
+                        font-weight: 500;
                     }
                 }
             }     
@@ -75,7 +80,7 @@
             color: $spaceCadet;
         }
         .cards {
-            max-width: 70%;
+            width: 70%;
             height: auto;          
             display: flex;
             flex-wrap: wrap;
@@ -120,6 +125,7 @@
             }
         }
     }
+    // INFOGRAPHICS
     .infographics {
         width: 100%;
         height: 100vh;
@@ -137,8 +143,242 @@
             img {
                 width: 55%;
             }
+        }   
+    } 
+    // INTEGRATIONS  
+    .integrations {
+        width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+        .integrations-container {
+            width: 900px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+               font-size: 30px; 
+               color: $spaceCadet;
+               margin-bottom: 24px;
+            }
+            p {
+                width: 700px;
+                margin-top: 0;
+                text-align: center;
+            }
+            .int-boxes-container {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .int__box {
+                    width: 220px;
+                    height: 130px;
+                    margin: 24px;
+                    box-shadow: 0 0 8px #DCDDDE;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 170px;
+                    }
+                }
+            }
         }
-        
-    }   
+    }
+    
 }
 
+// Request Demo  Global
+.request-demo {
+    width: 100%; 
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 120px;
+    position: relative;
+    img {
+        position: absolute;
+        z-index: -10;
+        width: 100%;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    .background {
+        width: 100%;
+        height: 52vh;
+        position: absolute;
+        z-index: -10;
+        bottom: 0;
+        background: #F6F8FA;
+    }
+    .demo-container {
+        width: 900px;
+        height: 200px;
+        background: white;  
+        box-shadow: 0 0 8px rgba(220, 221, 222,0.8);   
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        h1 {
+            color: $spaceCadet;
+            font-size: 28px;
+            margin: 0;
+        }  
+        a {
+            background: #F64C72;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            
+            box-shadow: 0 0 8px rgba(220, 221, 222,0.8);   
+            transition: 0.3s ease;
+        } 
+        a:hover {
+            background: lightseagreen;
+        }   
+    }
+}
+
+
+
+@media (max-width: 1730px) {
+    .platform {
+        .cards {
+            width: 95% !important;
+            margin-left: 0px !important;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .platform {
+        .cards {
+            .card {
+                width: 360px !important;
+                margin: 40px 30px !important;
+                h3 {
+                    font-size: 18px !important;
+                }
+                img {
+                    width: 42px !important;
+                    height: 42px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .platform {
+        h1 {
+            font-size: 24px !important;
+        }
+        .cards {
+            .card {
+                width: 95% !important;
+                margin: 20px 30px !important;
+            }
+        } 
+    }
+}
+
+
+
+@media (max-width: 960px) {
+    .jumbotron-content-container {
+        width: 100% !important;
+        .jumbotron-content {
+            margin: auto 40px !important;        
+            .row1 {  
+                .title {
+                    margin: 0;
+                    font-size: 28px !important;
+                    font-weight: bold;
+                }  
+            }
+            .row2 {   
+                p  {
+                    margin: 0;
+                    margin-top: 28px;
+                    font-size: 14px !important;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+    .particles-bg {  
+        position: absolute; 
+        width: 100% !important;
+        height: 100%;
+        top: 0;
+        right: 0;
+        opacity: 0.2;
+    }
+
+    .integrations {
+        .integrations-container {
+            width: 95% !important;
+            h1 {
+                font-size: 22px !important; 
+                color: $spaceCadet;
+                margin-bottom: 24px;
+             }
+             p {
+                 width: 90% !important;
+                 font-size: 14px;
+             }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .platform {
+        .cards {
+            .card {
+                h3 {
+                    font-size: 16px !important;
+                }
+                img {
+                    width: 36px !important;
+                    height: 36px !important;
+                }
+                p {
+                    font-size: 12px !important;
+                    line-height: 24px !important;
+                }
+                a {
+                    font-size: 14px !important;
+                } 
+            }
+        } 
+    }
+    .integrations {
+        .integrations-container {
+            h1 {
+                font-size: 18px !important; 
+                margin-bottom: 16px !important;
+             }
+             p {
+                 width: 90% !important;
+                 font-size: 12px !important;
+                 line-height: 24px;
+             }
+             .int__box {
+                width: 120px !important;
+                height: 80px !important;
+                margin: 12px !important;
+                img {
+                    width: 100px !important;
+                }
+             }
+        }
+    }  
+}

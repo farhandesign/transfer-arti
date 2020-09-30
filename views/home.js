@@ -46,7 +46,7 @@ module.exports = () => {
                 trends of how your products and company is performing and how you 
                 can improve it.
               </p>
-              <a href="">Learn more</a>
+              <a href="/insights">Learn more</a>
             </div>
             <div class="card">
               <div>
@@ -58,7 +58,7 @@ module.exports = () => {
                 through Signals, Sequence & Speed. Reach your customers at the right time-
                 right moment & right context.
               </p>
-              <a href="">Learn more</a>
+              <a href="/marketing">Learn more</a>
             </div>
             <div class="card">
               <div>
@@ -87,7 +87,7 @@ module.exports = () => {
                 <h3>Campaign Trigger Portal</h3>
               </div>
               <p>Send targeted campaigns and engage with your customers real time.</p>
-              <a href="">Learn more</a>
+              <a href="/campaign-portal">Learn more</a>
             </div>
           </div>
         </section>
@@ -96,6 +96,33 @@ module.exports = () => {
             <img src="/img/infographics.svg" alt="">
           </div>    
         </div>
+
+        <section class="integrations">
+          <div class="integrations-container">
+            <h1>Integrations to help you succeed</h1>
+            <p>Personalize, optimize and act on your data with the tools you already use, 
+             including data management platforms, eCommerce enterprise systems, email 
+             marketing services, web analytics solutions and more.
+            </p>
+            <div class="int-boxes-container">
+              <div class="int__box"><img src="/img/google.png" alt=""></div>
+              <div class="int__box"><img src="/img/facebook.png" alt=""></div>
+              <div class="int__box"><img src="/img/mailchimp.png" alt=""></div>
+              <div class="int__box"><img src="/img/adobe.png" alt=""></div>
+              <div class="int__box"><img src="/img/sap.png" alt=""></div>
+              <div class="int__box"><img src="/img/oracle.png" alt=""></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="request-demo">
+          <div class="demo-container">
+            <img src="/img/demo-bg.svg" alt="">
+            <div class="background"></div>
+            <h1>Request a Demo Today</h1>
+            <a href="#">Request Demo</a>
+          </div>
+        </section>
         
       </section>
     `

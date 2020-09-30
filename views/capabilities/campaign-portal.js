@@ -40,6 +40,36 @@ module.exports = () => {
         
       </div>
     </div>
+
+    <div class="other-capabilities">
+          <h1>Other capabilities</h1>
+          <div class="squares-container">
+            <a class="square" href="/marketing">
+              <img src="/img/icon-five.svg" alt="">
+              <h1>Multi-Moment Marketing</h1>
+            </a>
+            <a class="square" href="#">
+              <img src="/img/icon-one.svg" alt="">
+              <h1>Predictive Ad-Audience</h1>
+            </a>
+            <a class="square" href="#">
+              <img src="/img/icon-two.svg" alt="">
+              <h1>Purchase Pattern Identification</h1>
+            </a>
+            <a class="square" href="/campaign-portal">
+              <img src="/img/icon-three.svg" alt="">
+              <h1>Campaign Trigger Portal</h1>
+            </a>
+          </div>
+        </div>
+  </section>
+  <section class="request-demo">
+        <div class="demo-container">
+          <img src="/img/demo-bg.svg" alt="">
+          <div class="background"></div>
+          <h1>Request a Demo Today</h1>
+          <a href="#">Request Demo</a>
+        </div>
   </section>
 
   <script>

@@ -1254,6 +1254,13 @@ footer .container .social-media {
   .platform .cards .card a {
     font-size: 12px !important;
   }
+  .infographics {
+    height: 40vh !important;
+  }
+  .infographics img {
+    width: 280px !important;
+    margin-bottom: 10px !important;
+  }
   .integrations .integrations-container h1 {
     font-size: 16px !important;
   }

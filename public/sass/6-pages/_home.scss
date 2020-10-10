@@ -469,6 +469,13 @@
             }
         } 
     }  
+    .infographics {
+        height: 40vh !important;
+        img {
+            width: 280px !important;
+            margin-bottom: 10px !important;
+        }
+    }
     .integrations {
         .integrations-container {
             h1 {

@@ -1276,19 +1276,29 @@ footer .container .social-media {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+  .jumbotron-content-container {
+    width: 100% !important;
+  }
+  .jumbotron-content-container .jumbotron-content .row1 .title {
+    font-size: 20px !important;
+  }
+  .jumbotron-content-container .jumbotron-content .row2 p {
+    font-size: 12px !important;
+    line-height: 24px !important;
+  }
   .platform h1 {
     font-size: 16px !important;
   }
   .platform .cards .card h3 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   .platform .cards .card img {
     width: 28px !important;
     height: 28px !important;
   }
   .platform .cards .card p {
-    font-size: 1-px !important;
+    font-size: 12px !important;
     line-height: 24px !important;
   }
   .platform .cards .card a {

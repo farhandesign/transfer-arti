@@ -498,7 +498,23 @@
     }           
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+    .jumbotron-content-container {
+        width: 100% !important;
+        .jumbotron-content {
+            .row1 {  
+                .title {          
+                    font-size: 20px !important;
+                }  
+            }
+            .row2 {   
+                p  {
+                    font-size: 12px !important;
+                    line-height: 24px !important;
+                }
+            }
+        }
+    }
     .platform {
         h1 {
             font-size: 16px !important;
@@ -506,14 +522,14 @@
         .cards {
             .card {
                 h3 {
-                    font-size: 12px !important;
+                    font-size: 14px !important;
                 }
                 img {
                     width: 28px !important;
                     height: 28px !important;
                 }
                 p {
-                    font-size: 1-px !important;
+                    font-size: 12px !important;
                     line-height: 24px !important;
                 }
                 a {
@@ -526,8 +542,7 @@
         .integrations-container {
             h1 {
                 font-size: 14px !important; 
-            }
-                 
+            }      
         } 
     }
    

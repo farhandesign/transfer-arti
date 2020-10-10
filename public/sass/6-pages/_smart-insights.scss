@@ -162,8 +162,10 @@
         .bottom {
             .bottom-content {
                 flex-direction: column !important;
+                align-items: center !important;
+                justify-content: flex-start !important;
                 .point {
-                    width: 95% !important;
+                    width: 90% !important;
                     img {
                         width: 48px;
                         margin-bottom: 0;
@@ -217,15 +219,15 @@
             }
             .squares-container {         
                 .square {
-                    width: 200px;
-                    height: 100px;
+                    width: 200px !important;
+                    height: 100px !important;
                     img {
-                        width: 35px;
-                        height: 35px;
+                        width: 35px !important;
+                        height: 35px !important;
                     }
                     h1 {
-                        font-size: 14px;
-                        margin-top: 10px;
+                        font-size: 14px !important;
+                        margin-top: 10px !important;
                     }
                 }
             }
@@ -241,20 +243,87 @@
                 margin-bottom: 20px;
             }
             .squares-container {
-                width: 300px;           
+                width: 300px !important;           
                 .square {
-                    width: 150px;
-                    height: 100px;
+                    width: 150px !important;
+                    height: 100px !important;
                     img {
-                        width: 30px;
-                        height: 30px;
+                        width: 30px !important;
+                        height: 30px !important;
                     }
                     h1 {
-                        font-size: 11px;
-                        margin-top: 10px;
+                        font-size: 11px !important;
+                        margin-top: 10px !important;
                     }
                 }
             }
         }
     }  
+}
+
+@media (max-width: 415px) {
+    .body-smart-insights {
+        .top {
+            .text-content {
+                h1 {
+                    font-size: 22px !important;
+                    margin-bottom: 24px !important;
+                }
+                p {
+                    margin: 0 !important;
+                    font-size: 12px !important;
+                    line-height: 24px !important;
+                }
+            }
+        }
+        .bottom {
+            .bottom-content {
+                flex-direction: column !important;
+
+                .point {
+                    width: 95% !important;
+                    img {
+                        width: 48px;
+                        margin-bottom: 0;
+                    }
+                    h4 {
+                        font-size: 14px;
+                        color: $spaceCadet;
+                        line-height: 24px;
+                        margin-bottom: 0;
+                        margin-top: 10px;
+                    }
+    
+                    p {
+                        font-size: 12px !important;
+                        line-height: 24px;
+                        font-weight: 400;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+        .other-capabilities {
+            margin-bottom: 20px !important;
+            h1 {
+                font-size: 20px;           
+                margin-bottom: 20px !important;
+            }
+            .squares-container {
+                width: 100% !important;
+                .square {
+                    width: 150px !important;
+                    height: 100px !important;
+                    img {
+                        width: 30px !important;
+                        height: 30px !important;
+                    }
+                    h1 {
+                        font-size: 11px !important;
+                        margin-top: 10px !important;
+                    }
+                }
+            }
+        }
+    }
 }

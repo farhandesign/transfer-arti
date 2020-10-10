@@ -1205,6 +1205,7 @@ footer .container .social-media {
   }
   .infographics img {
     width: 70% !important;
+    margin-bottom: 10px !important;
   }
   .request-demo {
     height: 40vh !important;

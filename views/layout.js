@@ -71,17 +71,17 @@ module.exports = ({ content }) => {
               </div>
           </div>
           
-          <!-- Talk to Sales -->
+          <!-- Request Demo -->
           <button class="sales-btn">
-            <a href="">Request Demo</a>
+            <a href="/demo">Request Demo</a>
           </button>
 
           <!-- Drop Down -->
-          <button class="burger__menu"><img class="burger__bars" src="" alt=""></button>
+          <button class="burger__menu"><img class="burger__bars" src="/img/open-menu.svg" alt=""></button>
           <div class="menu__container">
-            <button class="lvl1 oneCap burger__item">Capabilities</button>
+            <button class="lvl1 oneCap burger__item">Capabilities<img class="d-arrows" src="/img/dropdown-arrow.svg" alt=""></button>
             <div class="lvl1-drop">
-              <button class="lvl2 twoKey burger__item">Key Capabilities</button>
+              <button class="lvl2 twoKey burger__item">Key Capabilities<img class="d-arrows" src="/img/dropdown-arrow.svg" alt=""></button>
               <div class="lvl2-drop">
                 <a class="lvl3 burger__item" href="/insights"><img class="lvl3__icon" src="/img/icon-four.svg" alt="">Smart Insights</a>
                 <a class="lvl3 burger__item"><img class="lvl3__icon" src="/img/icon-two.svg" alt="">Purchase Pattern Identification</a>
@@ -89,7 +89,7 @@ module.exports = ({ content }) => {
                 <a class="lvl3 burger__item" href="/marketing"><img class="lvl3__icon" src="/img/icon-five.svg" alt="">Multi-Moment Marketing</a>
                 <a class="lvl3 burger__item" href="/campaign-portal"><img class="lvl3__icon" src="/img/icon-three.svg" alt="">Campaign Trigger Portal</a>
               </div>
-              <button class="lvl2 twoIn burger__item">Industries</button>
+              <button class="lvl2 twoIn burger__item">Industries<img class="d-arrows" src="/img/dropdown-arrow.svg" alt=""></button>
               <div class="lvl2-drop twoIn-drop">
                 <a class="lvl3 burger__item" href="#">eCommerce</a>
                 <a class="lvl3 burger__item" href="#">Retail</a>
@@ -114,33 +114,33 @@ module.exports = ({ content }) => {
           <div class="sub-links">
             <div class="list">
               <h5>Key Capabilities</h5>
-              <a href="">Smart Insights</a>
-              <a href="">Purchase Pattern Identification</a>
-              <a href="">Predictive Ad-Audience</a>
-              <a href="">Multi-Moment Marketing</a>
-              <a href="">Campaign Trigger Portal</a>
+              <a href="/insights">Smart Insights</a>
+              <a href="#">Purchase Pattern Identification</a>
+              <a href="#">Predictive Ad-Audience</a>
+              <a href="/marketing">Multi-Moment Marketing</a>
+              <a href="/campaign-portal">Campaign Trigger Portal</a>
             </div>
             <div class="list">
               <h5>Industries</h5>
-              <a href="">eCommerce</a>
-              <a href="">Retail</a>
-              <a href="">Finance</a>
-              <a href="">Travel</a>
+              <a href="#">eCommerce</a>
+              <a href="#">Retail</a>
+              <a href="#">Finance</a>
+              <a href="#">Travel</a>
             </div>
             <div class="list">
               <h5>Why Artilytics</h5>
-              <a href="">Customer Success</a>
-              <a href="">Select Customers</a>
-              <a href="">Artilytics Reviews</a>
-              <a href="">Security and Compliance</a>
+              <a href="#">Customer Success</a>
+              <a href="#">Select Customers</a>
+              <a href="#">Artilytics Reviews</a>
+              <a href="#">Security and Compliance</a>
             </div>
             <div class="list">
               <h5>Company</h5>
-              <a href="">About Us</a>
-              <a href="">Events</a>
-              <a href="">Press</a>
-              <a href="">Contact</a>
-              <a href="">Team</a>
+              <a href="#">About Us</a>
+              <a href="#">Events</a>
+              <a href="#">Press</a>
+              <a href="#">Contact</a>
+              <a href="#">Team</a>
             </div>
           </div>
           <div class="contact">

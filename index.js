@@ -5,6 +5,7 @@ const cookieSession = require('cookie-session');
 const capabilitiesRouter = require('./routes/capabilities');
 const homePageRouter = require('./routes/home');
 const adminRouter = require('./routes/auth');
+const demoRouter = require('./routes/request-demo');
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.use(cookieSession({
 app.use(homePageRouter);
 app.use(capabilitiesRouter);
 app.use(adminRouter);
+app.use(demoRouter);
 
 
 app.listen(3800, () => {

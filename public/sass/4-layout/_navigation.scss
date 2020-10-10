@@ -45,12 +45,19 @@ header {
       margin: 0 40px;
     } 
     .sales-btn:hover {
-      background: lightseagreen;
+      background: #FCA354;
     }
     
     .burger__menu {
       display: none;
       outline: none;
+      padding: 0;
+      background: none;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 24px;
+      }
     }
     .menu__container {
       display: none;
@@ -72,15 +79,28 @@ header {
         color: $spaceCadet;
         font-weight: 500;
       }
+      .d-arrows {
+        width: 10px;
+        margin-right: 20px;
+        transition: 0.5s ease;
+      }
       .lvl1 {
         background: white;
         border-bottom: 1px solid #EAEFF2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       .lvl1:first-child {
         border-top: 1px solid #EAEFF2;
       }
       .lvl1:focus {
         background: #F6F8FA;
+      }
+      .lvl1:hover {
+        img {
+          transform: rotate(180deg);
+        }
       }
       .lvl1-drop {
         display: none;  
@@ -90,6 +110,14 @@ header {
           background: white;
           text-indent: 40px;
           font-weight: 600;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .lvl2:hover {
+          img {
+            transform: rotate(180deg);
+          }
         }
         .lvl2-drop {
           display: none !important;
@@ -229,8 +257,25 @@ header {
       margin-left: auto !important;
     }  
     .burger__menu {
-      margin: auto 20px auto 0px !important;
-      display: block !important;
+      margin: auto 20px auto 10px !important;
+      display: flex !important;
+    } 
+  } 
+}
+
+@media (max-width: 415px) {
+  nav {
+    .logo {
+      margin-left: 20px !important;
+      font-size: 20px !important;
+    }
+    .sales-btn {
+     margin-left: auto !important;
+      font-size: 12px !important;
+      padding: 8px 10px !important;
+    } 
+    .burger__menu {
+      margin-left: 0px !important;
     } 
   } 
 }

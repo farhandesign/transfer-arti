@@ -67,7 +67,7 @@ module.exports = () => {
       <img src="/img/demo-bg.svg" alt="">
       <div class="background"></div>
       <h1>Request a Demo Today</h1>
-      <a href="#">Request Demo</a>
+      <a href="/demo">Request Demo</a>
     </div>
   </section>
 

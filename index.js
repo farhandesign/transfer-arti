@@ -21,6 +21,6 @@ app.use(adminRouter);
 app.use(demoRouter);
 
 
-app.listen(3800, () => {
+app.listen(process.env.PORT || 3800, () => {
     console.log('listening');
 });

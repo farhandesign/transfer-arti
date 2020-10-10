@@ -1195,6 +1195,7 @@ footer .container .social-media {
     width: 120px !important;
     height: 80px !important;
     margin: 12px !important;
+    background: white !important;
   }
   .integrations .integrations-container .int__box img {
     width: 100px !important;
@@ -1298,7 +1299,7 @@ footer .container .social-media {
     height: 28px !important;
   }
   .platform .cards .card p {
-    font-size: 12px !important;
+    font-size: 11px !important;
     line-height: 24px !important;
   }
   .platform .cards .card a {
@@ -1306,6 +1307,21 @@ footer .container .social-media {
   }
   .integrations .integrations-container h1 {
     font-size: 14px !important;
+    margin-bottom: 16px !important;
+  }
+  .integrations .integrations-container p {
+    width: 90% !important;
+    font-size: 12px !important;
+    line-height: 24px;
+  }
+  .integrations .integrations-container .int__box {
+    width: 120px !important;
+    height: 80px !important;
+    margin: 12px !important;
+    background: white !important;
+  }
+  .integrations .integrations-container .int__box img {
+    width: 100px !important;
   }
 }
 

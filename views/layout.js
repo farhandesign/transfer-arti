@@ -169,7 +169,7 @@ module.exports = ({ content }) => {
     const navigation = document.querySelector('nav');
     let x = document.URL;
     console.log(x);
-    if (x != 'artilytics.com') {
+    if (x != 'http://www.artilytics.com/') {
       navigation.classList.toggle('nav-white');
     }
   }

@@ -1,69 +1,70 @@
-
 footer {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 
-    .container {
-        width: 50%;
-        height: 100%;
-        margin: auto auto;
+	.container {
+		width: 50%;
+		height: 100%;
+		margin: auto auto;
 
-       .sub-links {
-           width: 100%;
-           height: auto;
-           display: flex;
-           flex-wrap: wrap;
-           justify-content: space-between;
+		.sub-links {
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
 
-           .list {     
-               display: flex;
-               flex-direction: column;
-               margin: 40px 10px;
+			.list {
+				display: flex;
+				flex-direction: column;
+				margin: 40px 10px;
 
-               h5 {
-                   color: #5BC3C8;
-               }
-               a {
-                   color: white;
-                   margin: 8px 0px;
-               }
-           }          
-       }
-       .contact {
-           width: 100%;
-           padding-bottom: 20px;
-           margin: 0 10px;
-           h5 {
-               color: #5BC3C8;
-               margin: 10px 0;
-           }
-           p {
-               margin: 0;
-               line-height: 24px;
-           }
-       } 
-       .social-media {
-           width: 100%;
-           height: auto;
-           margin: 0 10px;
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-       }
-    }
+				h5 {
+					color: #5bc3c8;
+				}
+				a {
+					color: white;
+					margin: 8px 0px;
+				}
+			}
+		}
+		.contact {
+			width: 100%;
+			padding-bottom: 20px;
+			margin: 0 10px;
+			h5 {
+				color: #5bc3c8;
+				margin: 10px 0;
+			}
+			p {
+				margin: 0;
+				line-height: 24px;
+			}
+		}
+		.social-media {
+			width: 100%;
+			height: auto;
+			margin: 0 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
 }
 
-@media (max-width: 415px) {   
-    footer {
-        font-size: 10px; 
-        .container {
-            width: 70% !important;
-        }
-        h5, a, p {
-            font-size: 10px;
-        }
-        .list {     
-            margin: 20px 10px !important;
-        }          
-    }
+@media (max-width: 415px) {
+	footer {
+		font-size: 10px;
+		.container {
+			width: 70% !important;
+		}
+		h5,
+		a,
+		p {
+			font-size: 10px;
+		}
+		.list {
+			margin: 20px 10px !important;
+		}
+	}
 }

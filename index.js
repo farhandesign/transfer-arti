@@ -6,21 +6,24 @@ const capabilitiesRouter = require('./routes/capabilities');
 const homePageRouter = require('./routes/home');
 const adminRouter = require('./routes/auth');
 const demoRouter = require('./routes/request-demo');
+const whyArtiRouter = require('./routes/why');
 
 const app = express();
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cookieSession({
-  keys: ['lalalala']
-}));
+app.use(
+	cookieSession({
+		keys: [ 'lalalala' ]
+	})
+);
 
 app.use(homePageRouter);
 app.use(capabilitiesRouter);
 app.use(adminRouter);
 app.use(demoRouter);
-
+app.use(whyArtiRouter);
 
 app.listen(process.env.PORT || 3800, () => {
-    console.log('listening');
+	console.log('listening');
 });

@@ -1,8 +1,8 @@
 const layout = require('../layout');
 
 module.exports = () => {
-  return layout({
-    content: `
+	return layout({
+		content: `
       <section class="body-smart-insights">
         <div class="top">
           <div class="text-content">
@@ -70,17 +70,6 @@ module.exports = () => {
           <a href="/demo">Request Demo</a>
         </div>
       </section>
-
-      <script>
-        const navColor = () => {
-          const navigation = document.querySelector('nav');
-          let x = document.URL;
-          if (x == 'http://localhost:3600/insights') {
-            navigation.classList.toggle('nav-white');
-          }
-        }
-        navColor();
-      </script>
     `
-  });
+	});
 };

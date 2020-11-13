@@ -1,0 +1,49 @@
+.why__container {
+	width: 840px;
+	height: auto;
+	margin: 100px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f6f8fa;
+	.why__text {
+		margin: 100px auto;
+		h1 {
+			font-size: 40px;
+			font-weight: 800;
+			color: $spaceCadet;
+			margin: 0 auto;
+			margin-bottom: 64px;
+			text-align: center;
+		}
+		p {
+			margin: 0 100px;
+			font-size: 16px;
+			margin-bottom: 32px;
+			img {
+				width: 14px;
+				margin-right: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1000px) {
+	.why__container {
+		margin: 64px 0;
+		width: 90%;
+		.why__text {
+			margin: 48px auto;
+			h1 {
+				font-size: 28px;
+				margin: 0 auto;
+				margin-bottom: 48px;
+			}
+			p {
+				font-size: 14px;
+				margin: 0 48px;
+				margin-bottom: 32px;
+			}
+		}
+	}
+}

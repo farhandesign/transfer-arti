@@ -9,23 +9,23 @@ const campaignTriggerTemplate = require('../views/capabilities/campaign-portal')
 const router = express.Router();
 
 router.get('/insights', (req, res) => {
-    res.send(smartInsightsTemplate());
+	res.send(smartInsightsTemplate());
 });
 
 router.get('/marketing', (req, res) => {
-    res.send(momentMarketingTemplate());
+	res.send(momentMarketingTemplate());
 });
 
 router.get('/ad-audience', (req, res) => {
-    res.send(predictiveAdAudienceTemplate());
+	res.send(predictiveAdAudienceTemplate());
 });
 
 router.get('/purchase-pattern', (req, res) => {
-    res.send(purchasePatternTemplate());
+	res.send(purchasePatternTemplate());
 });
 
 router.get('/campaign-portal', (req, res) => {
-    res.send(campaignTriggerTemplate());
+	res.send(campaignTriggerTemplate());
 });
 
 module.exports = router;

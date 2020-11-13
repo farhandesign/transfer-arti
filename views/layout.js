@@ -13,7 +13,7 @@ module.exports = ({ content }) => {
     <body>
       <header>
         <nav>   
-          <a class="logo" href="/">Artilytics</a>
+          <a class="logo" href="/"><img class="arti-logo" src="/img/arti-logo.png" alt=""></a>
 
           <div class="nav-links-container">
              <!-- Capabilities -->
@@ -55,11 +55,7 @@ module.exports = ({ content }) => {
               </div>
               <!-- Why Artilytics -->
               <div class="nav-link">
-                Why Artilytics
-                <img class="dropdown-arrow" src="/img/dropdown-arrow.svg" alt="">
-                <div class="dropdown-menu dropdown-menu-why">
-                  <div class="dropdown-content"></div>
-                </div> 
+                <a href="/why-artilytics">Why Artilytics</a>
               </div>
               <!-- Company -->
               <div class="nav-link">
@@ -97,8 +93,8 @@ module.exports = ({ content }) => {
                 <a class="lvl3 burger__item" href="#">Travel</a>
               </div>
             </div>
-            <button class="lvl1 burger__item">Why Artilytics</button>
-            <button class="lvl1 burger__item">Company</button>
+            <a href="/why-artilytics" class="lvl1 burger__item">Why Artilytics</a>
+            <a href="#" class="lvl1 burger__item">Company</a>
           </div>
         </nav>
       </header>
@@ -129,16 +125,12 @@ module.exports = ({ content }) => {
             </div>
             <div class="list">
               <h5>Why Artilytics</h5>
-              <a href="#">Customer Success</a>
-              <a href="#">Select Customers</a>
-              <a href="#">Artilytics Reviews</a>
-              <a href="#">Security and Compliance</a>
+              <a href="/why-artilytics">Customer Success</a>
+              <a href="/why-artilytics">Select Customers</a>
             </div>
             <div class="list">
               <h5>Company</h5>
               <a href="#">About Us</a>
-              <a href="#">Events</a>
-              <a href="#">Press</a>
               <a href="#">Contact</a>
               <a href="#">Team</a>
             </div>
@@ -172,6 +164,18 @@ module.exports = ({ content }) => {
         burgerMenu();
       </script>
 
+<script>
+  const navColor = () => {
+    const navigation = document.querySelector('nav');
+    let x = document.URL;
+    console.log(x);
+    if (x != 'artilytics.com') {
+      navigation.classList.toggle('nav-white');
+    }
+  }
+  navColor();
+</script>
+
       <!--Menu -->
       <script>
         const dropdown = () => {
@@ -199,14 +203,6 @@ module.exports = ({ content }) => {
       </script>
 
       <script type="text/javascript" src="/js/intersection-observer.js"></script> 
-      <script type="text/javascript" src="/js/type-writer.js"></script> 
-      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-      <script>
-        particlesJS.load('particles-js',
-        '/js/particles.json', function(){
-          console.log('particles.json loaded...');
-        });
-      </script>
     </body>
     </html>
   `;

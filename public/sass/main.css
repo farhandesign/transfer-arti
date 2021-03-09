@@ -348,6 +348,7 @@ header nav .nav-links-container .nav-link img {
 
 header nav .sales-btn {
   margin: 0 40px;
+  border-radius: 2px;
 }
 
 header nav .sales-btn:hover {
@@ -617,6 +618,9 @@ header nav .menu__container-active {
     margin-left: 30px !important;
     font-size: 24px !important;
   }
+  nav .logo .arti-logo {
+    width: 180px;
+  }
   nav .nav-links-container {
     display: none !important;
   }
@@ -632,9 +636,17 @@ header nav .menu__container-active {
   }
 }
 
+@media (max-width: 515px) {
+  nav .logo {
+    margin-left: 12px !important;
+  }
+  nav .logo .arti-logo {
+    width: 120px !important;
+  }
+}
+
 @media (max-width: 415px) {
   nav .logo {
-    margin-left: 20px !important;
     font-size: 20px !important;
   }
   nav .sales-btn {
@@ -906,7 +918,7 @@ footer .container .social-media {
 
 .home-page .platform .cards .card a {
   font-size: 16px;
-  color: #161AA8;
+  color: #161aa8;
   font-weight: 500;
 }
 
@@ -981,8 +993,8 @@ footer .container .social-media {
   width: 220px;
   height: 130px;
   margin: 24px;
-  -webkit-box-shadow: 0 0 8px #DCDDDE;
-          box-shadow: 0 0 8px #DCDDDE;
+  -webkit-box-shadow: 0 0 8px #dcddde;
+          box-shadow: 0 0 8px #dcddde;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1030,7 +1042,7 @@ footer .container .social-media {
   position: absolute;
   z-index: -10;
   bottom: 0;
-  background: #F6F8FA;
+  background: #f6f8fa;
 }
 
 .request-demo .demo-container {
@@ -1061,11 +1073,12 @@ footer .container .social-media {
 }
 
 .request-demo .demo-container a {
-  background: #F64C72;
+  background: #f64c72;
   color: white;
   padding: 12px 20px;
   font-size: 18px;
   margin-top: 20px;
+  border-radius: 2px;
   -webkit-box-shadow: 0 0 8px rgba(220, 221, 222, 0.8);
           box-shadow: 0 0 8px rgba(220, 221, 222, 0.8);
   -webkit-transition: 0.3s ease;
@@ -1073,7 +1086,7 @@ footer .container .social-media {
 }
 
 .request-demo .demo-container a:hover {
-  background: #FCA354;
+  background: #fca354;
 }
 
 @media (max-width: 1730px) {

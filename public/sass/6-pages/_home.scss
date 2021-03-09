@@ -1,571 +1,562 @@
 .home-page {
-    width: 100%;
-    
-    .jumbotron {   
-        width: 100%;
-        height: 80vh;
-        display: flex;
-        position: relative;
-        
-        overflow: hidden;
+	width: 100%;
 
-        .jumbotron-content-container {
-            width: 65%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+	.jumbotron {
+		width: 100%;
+		height: 80vh;
+		display: flex;
+		position: relative;
 
-            .jumbotron-content {
-                margin-left: 150px;
-                width: 620px;
-                height: 60%;
-                display: grid;
-                grid-template-rows: 3fr 8fr;
+		overflow: hidden;
 
-                .row1 {  
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    align-items: flex-end;
-                    .title {
-                        margin: 0;
-                        font-size: 56px;
-                        font-weight: bold;
-                    }  
-                }
-                .row2 {   
-                    width: 100%;
-                    height: 100%;
-                    p  {
-                        margin: 0;
-                        margin-top: 28px;
-                        font-size: 16px;
-                        line-height: 32px;
-                        font-weight: 500;
-                    }
-                }
-            }     
-        }
-        .particles-bg {   
-            width: 35%;
-            height: 100%;
-            #particles-js {
-                width: 100%;
-                height: 100%;
-            }
-        }
-    }
+		.jumbotron-content-container {
+			width: 65%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
-    .platform {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .beige {
-            background: $primary;
-            display: flex;
-            align-items: flex-end;
-            width: 100%;
-            img {
-                width: 100%;
-            }
-        }     
+			.jumbotron-content {
+				margin-left: 150px;
+				width: 620px;
+				height: 60%;
+				display: grid;
+				grid-template-rows: 3fr 8fr;
 
-        h1 {
-            margin: 60px 20px;
-            font-size: 32px;
-            color: $spaceCadet;
-        }
-        .cards {
-            width: 70%;
-            height: auto;          
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-left: 60px;
-            margin-bottom: 60px;
-            
+				.row1 {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					align-items: flex-end;
+					.title {
+						margin: 0;
+						font-size: 56px;
+						font-weight: bold;
+					}
+				}
+				.row2 {
+					width: 100%;
+					height: 100%;
+					p {
+						margin: 0;
+						margin-top: 28px;
+						font-size: 16px;
+						line-height: 32px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+		.particles-bg {
+			width: 35%;
+			height: 100%;
+			#particles-js {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 
-            .card {
-                width: 480px;
-                height: auto;  
-                margin: 40px 60px;
+	.platform {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.beige {
+			background: $primary;
+			display: flex;
+			align-items: flex-end;
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
 
-                div {
-                    width: 100%;
-                    height: auto;
-                    display: flex;   
-                    align-items: flex-end;
+		h1 {
+			margin: 60px 20px;
+			font-size: 32px;
+			color: $spaceCadet;
+		}
+		.cards {
+			width: 70%;
+			height: auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-left: 60px;
+			margin-bottom: 60px;
 
-                    h3 {
-                        line-height: 0;
-                        color: $spaceCadet;
-                    }
-                    img {
-                        width: 56px;
-                        height: 56px;
-                        margin-right: 16px;
-                    }
-                }
+			.card {
+				width: 480px;
+				height: auto;
+				margin: 40px 60px;
 
-                
-                p {
-                    font-size: 14px;
-                    line-height: 28px;
-                    
-                }
-                a {
-                    font-size: 16px;
-                    color: #161AA8;
-                    font-weight: 500;
-                }
-            }
-        }
-    }
-    // INFOGRAPHICS
-    .infographics {
-        width: 100%;
-        height: 84vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img {
-            width: 800px;
-            margin-bottom: 40px;
-        }
-    } 
-    // INTEGRATIONS  
-    .integrations {
-        width: 100%;
-        height: auto;
-        margin-bottom: 60px;
-        margin-top: 40px;
-        .integrations-container {
-            width: 900px;
-            height: 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            h1 {
-               font-size: 30px; 
-               color: $spaceCadet;
-               margin-bottom: 24px;
-            }
-            p {
-                width: 700px;
-                margin-top: 0;
-                text-align: center;
-            }
-            .int-boxes-container {
-                width: 100%;
-                height: auto;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                .int__box {
-                    width: 220px;
-                    height: 130px;
-                    margin: 24px;
-                    box-shadow: 0 0 8px #DCDDDE;
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    img {
-                        width: 170px;
-                    }
-                }
-            }
-        }
-    }
-    
+				div {
+					width: 100%;
+					height: auto;
+					display: flex;
+					align-items: flex-end;
+
+					h3 {
+						line-height: 0;
+						color: $spaceCadet;
+					}
+					img {
+						width: 56px;
+						height: 56px;
+						margin-right: 16px;
+					}
+				}
+
+				p {
+					font-size: 14px;
+					line-height: 28px;
+				}
+				a {
+					font-size: 16px;
+					color: #161aa8;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	// INFOGRAPHICS
+	.infographics {
+		width: 100%;
+		height: 84vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			width: 800px;
+			margin-bottom: 40px;
+		}
+	}
+	// INTEGRATIONS
+	.integrations {
+		width: 100%;
+		height: auto;
+		margin-bottom: 60px;
+		margin-top: 40px;
+		.integrations-container {
+			width: 900px;
+			height: 100%;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			h1 {
+				font-size: 30px;
+				color: $spaceCadet;
+				margin-bottom: 24px;
+			}
+			p {
+				width: 700px;
+				margin-top: 0;
+				text-align: center;
+			}
+			.int-boxes-container {
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				.int__box {
+					width: 220px;
+					height: 130px;
+					margin: 24px;
+					box-shadow: 0 0 8px #dcddde;
+					cursor: pointer;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					img {
+						width: 170px;
+					}
+				}
+			}
+		}
+	}
 }
 
 // Request Demo  Global
 .request-demo {
-    width: 100%; 
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 120px;
-    position: relative;
-    img {
-        position: absolute;
-        z-index: -10;
-        width: 100%;
-        right: 0;
-        left: 0;
-        top: 0;
-    }
-    .background {
-        width: 100%;
-        height: 52vh;
-        position: absolute;
-        z-index: -10;
-        bottom: 0;
-        background: #F6F8FA;
-    }
-    .demo-container {
-        width: 900px;
-        height: 200px;
-        background: white;  
-        box-shadow: 0 0 8px rgba(220, 221, 222,0.8);   
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        flex-direction: column;
-        h1 {
-            color: $spaceCadet;
-            font-size: 28px;
-            margin: 0;
-        }  
-        a {
-            background: #F64C72;
-            color: white;
-            padding: 12px 20px;
-            font-size: 18px;
-            margin-top: 20px;
-            
-            box-shadow: 0 0 8px rgba(220, 221, 222,0.8);   
-            transition: 0.3s ease;
-        } 
-        a:hover {
-            background: #FCA354;
-        }   
-    }
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+	position: relative;
+	img {
+		position: absolute;
+		z-index: -10;
+		width: 100%;
+		right: 0;
+		left: 0;
+		top: 0;
+	}
+	.background {
+		width: 100%;
+		height: 52vh;
+		position: absolute;
+		z-index: -10;
+		bottom: 0;
+		background: #f6f8fa;
+	}
+	.demo-container {
+		width: 900px;
+		height: 200px;
+		background: white;
+		box-shadow: 0 0 8px rgba(220, 221, 222, 0.8);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		h1 {
+			color: $spaceCadet;
+			font-size: 28px;
+			margin: 0;
+		}
+		a {
+			background: #f64c72;
+			color: white;
+			padding: 12px 20px;
+			font-size: 18px;
+			margin-top: 20px;
+			border-radius: 2px;
+
+			box-shadow: 0 0 8px rgba(220, 221, 222, 0.8);
+			transition: 0.3s ease;
+		}
+		a:hover {
+			background: #fca354;
+		}
+	}
 }
 
-
-
 @media (max-width: 1730px) {
-    .platform {
-        .cards {
-            width: 95% !important;
-            margin-left: 0px !important;
-        }
-    }
+	.platform {
+		.cards {
+			width: 95% !important;
+			margin-left: 0px !important;
+		}
+	}
 }
 
 @media (max-width: 1300px) {
-    .platform {
-        .cards {
-            .card {
-                width: 360px !important;
-                margin: 40px 30px !important;
-                h3 {
-                    font-size: 18px !important;
-                }
-                img {
-                    width: 42px !important;
-                    height: 42px !important;
-                }
-            }
-        }
-    }
+	.platform {
+		.cards {
+			.card {
+				width: 360px !important;
+				margin: 40px 30px !important;
+				h3 {
+					font-size: 18px !important;
+				}
+				img {
+					width: 42px !important;
+					height: 42px !important;
+				}
+			}
+		}
+	}
 
-    .demo-container {
-        width: 80% !important;
-        h1 {          
-            font-size: 24px;
-        }  
-        a {          
-            padding: 12px 20px;
-            font-size: 16px;
-        } 
-    }
-    
+	.demo-container {
+		width: 80% !important;
+		h1 {
+			font-size: 24px;
+		}
+		a {
+			padding: 12px 20px;
+			font-size: 16px;
+		}
+	}
 }
 @media (max-width: 1000px) {
-    .infographics {
-        height: 60vh !important;
-        img {
-            width: 70% !important;
-        }
-    }
+	.infographics {
+		height: 60vh !important;
+		img {
+			width: 70% !important;
+		}
+	}
 }
 
 @media (max-width: 900px) {
-    .platform {
-        h1 {
-            font-size: 24px !important;
-        }
-        .cards {
-            .card {
-                width: 95% !important;
-                margin: 20px 30px !important;
-            }
-        } 
-    }
+	.platform {
+		h1 {
+			font-size: 24px !important;
+		}
+		.cards {
+			.card {
+				width: 95% !important;
+				margin: 20px 30px !important;
+			}
+		}
+	}
 }
 
-
-
 @media (max-width: 960px) {
-    .jumbotron-content-container {
-        width: 100% !important;
-        .jumbotron-content {
-            margin: auto 40px !important;        
-            .row1 {  
-                .title {
-                    margin: 0;
-                    font-size: 28px !important;
-                    font-weight: bold;
-                }  
-            }
-            .row2 {   
-                p  {
-                    margin: 0;
-                    margin-top: 28px;
-                    font-size: 14px !important;
-                    line-height: 32px;
-                }
-            }
-        }
-    }
-    .particles-bg {  
-        position: absolute; 
-        width: 100% !important;
-        height: 100%;
-        top: 0;
-        right: 0;
-        opacity: 0.2;
-    }
+	.jumbotron-content-container {
+		width: 100% !important;
+		.jumbotron-content {
+			margin: auto 40px !important;
+			.row1 {
+				.title {
+					margin: 0;
+					font-size: 28px !important;
+					font-weight: bold;
+				}
+			}
+			.row2 {
+				p {
+					margin: 0;
+					margin-top: 28px;
+					font-size: 14px !important;
+					line-height: 32px;
+				}
+			}
+		}
+	}
+	.particles-bg {
+		position: absolute;
+		width: 100% !important;
+		height: 100%;
+		top: 0;
+		right: 0;
+		opacity: 0.2;
+	}
 
-    .integrations {
-        .integrations-container {
-            width: 95% !important;
-            h1 {
-                font-size: 22px !important; 
-                color: $spaceCadet;
-                margin-bottom: 24px;
-             }
-             p {
-                 width: 90% !important;
-                 font-size: 14px;
-             }
-        }
-    }
+	.integrations {
+		.integrations-container {
+			width: 95% !important;
+			h1 {
+				font-size: 22px !important;
+				color: $spaceCadet;
+				margin-bottom: 24px;
+			}
+			p {
+				width: 90% !important;
+				font-size: 14px;
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
-    .platform {
-        h1 {
-            font-size: 18px !important;
-            margin: 20px 20px !important;
-            margin-top: 40px !important;
-        }
-        .cards {
-            .card {
-                h3 {
-                    font-size: 14px !important;
-                }
-                img {
-                    width: 30px !important;
-                    height: 30px !important;
-                }
-                p {
-                    font-size: 12px !important;
-                    line-height: 24px !important;
-                }
-                a {
-                    font-size: 14px !important;
-                } 
-            }
-        } 
-    }
-    .integrations {
-        .integrations-container {
-            h1 {
-                font-size: 18px !important; 
-                margin-bottom: 16px !important;
-             }
-             p {
-                 width: 90% !important;
-                 font-size: 12px !important;
-                 line-height: 24px;
-             }
-             .int__box {
-                width: 120px !important;
-                height: 80px !important;
-                margin: 12px !important;
-                background: white !important;
-                img {
-                    width: 100px !important;
-                }
-             }
-        }
-    }  
-    .infographics {
-        height: 40vh !important;
-        img {
-            width: 70% !important;
-            margin-bottom: 10px !important;
-        }
-    }
-    .request-demo {
-        height: 40vh !important; 
-        margin-top: 120px;      
-        img {
-           
-        }
-        .background {
-            height: 32vh !important;
-        }
-        .demo-container {
-            width: 80% !important;
-            height: 40% !important;
-            h1 {          
-                font-size: 18px !important;
-            }  
-            a {          
-                padding: 12px 20px;
-                font-size: 14px !important;
-            } 
-        }
-    }      
+	.platform {
+		h1 {
+			font-size: 18px !important;
+			margin: 20px 20px !important;
+			margin-top: 40px !important;
+		}
+		.cards {
+			.card {
+				h3 {
+					font-size: 14px !important;
+				}
+				img {
+					width: 30px !important;
+					height: 30px !important;
+				}
+				p {
+					font-size: 12px !important;
+					line-height: 24px !important;
+				}
+				a {
+					font-size: 14px !important;
+				}
+			}
+		}
+	}
+	.integrations {
+		.integrations-container {
+			h1 {
+				font-size: 18px !important;
+				margin-bottom: 16px !important;
+			}
+			p {
+				width: 90% !important;
+				font-size: 12px !important;
+				line-height: 24px;
+			}
+			.int__box {
+				width: 120px !important;
+				height: 80px !important;
+				margin: 12px !important;
+				background: white !important;
+				img {
+					width: 100px !important;
+				}
+			}
+		}
+	}
+	.infographics {
+		height: 40vh !important;
+		img {
+			width: 70% !important;
+			margin-bottom: 10px !important;
+		}
+	}
+	.request-demo {
+		height: 40vh !important;
+		margin-top: 120px;
+		img {
+		}
+		.background {
+			height: 32vh !important;
+		}
+		.demo-container {
+			width: 80% !important;
+			height: 40% !important;
+			h1 {
+				font-size: 18px !important;
+			}
+			a {
+				padding: 12px 20px;
+				font-size: 14px !important;
+			}
+		}
+	}
 }
 
 @media (max-width: 415px) {
-    .jumbotron-content-container {
-        width: 100% !important;
-        .jumbotron-content {
-            .row1 {  
-                .title {          
-                    font-size: 24px !important;
-                }  
-            }
-            .row2 {   
-                p  {
-                    font-size: 12px !important;
-                }
-            }
-        }
-    }
-    .platform {
-        h1 {
-            font-size: 16px !important;
-        }
-        .cards {
-            .card {
-                h3 {
-                    font-size: 14px !important;
-                }
-                img {
-                    width: 30px !important;
-                    height: 30px !important;
-                }
-                p {
-                    font-size: 12px !important;
-                    line-height: 24px !important;
-                }
-                a {
-                    font-size: 12px !important;
-                } 
-            }
-        } 
-    }  
-    .infographics {
-        height: 40vh !important;
-        img {
-            width: 280px !important;
-            margin-bottom: 10px !important;
-        }
-    }
-    .integrations {
-        .integrations-container {
-            h1 {
-                font-size: 16px !important; 
-            }      
-        } 
-    }
-    .request-demo {
-        height: 40vh !important; 
-        margin-top: 60px !important;      
-        img {     
-        }
-        .background {
-            height: 32vh !important;
-        }
-        .demo-container {
-            width: 80% !important;
-            height: 40% !important;
-            h1 {          
-                font-size: 16px !important;
-            }  
-            a {          
-                padding: 10px 16px;
-                font-size: 12px !important;
-                margin-top: 10px;
-            } 
-        }
-    }           
+	.jumbotron-content-container {
+		width: 100% !important;
+		.jumbotron-content {
+			.row1 {
+				.title {
+					font-size: 24px !important;
+				}
+			}
+			.row2 {
+				p {
+					font-size: 12px !important;
+				}
+			}
+		}
+	}
+	.platform {
+		h1 {
+			font-size: 16px !important;
+		}
+		.cards {
+			.card {
+				h3 {
+					font-size: 14px !important;
+				}
+				img {
+					width: 30px !important;
+					height: 30px !important;
+				}
+				p {
+					font-size: 12px !important;
+					line-height: 24px !important;
+				}
+				a {
+					font-size: 12px !important;
+				}
+			}
+		}
+	}
+	.infographics {
+		height: 40vh !important;
+		img {
+			width: 280px !important;
+			margin-bottom: 10px !important;
+		}
+	}
+	.integrations {
+		.integrations-container {
+			h1 {
+				font-size: 16px !important;
+			}
+		}
+	}
+	.request-demo {
+		height: 40vh !important;
+		margin-top: 60px !important;
+		img {
+		}
+		.background {
+			height: 32vh !important;
+		}
+		.demo-container {
+			width: 80% !important;
+			height: 40% !important;
+			h1 {
+				font-size: 16px !important;
+			}
+			a {
+				padding: 10px 16px;
+				font-size: 12px !important;
+				margin-top: 10px;
+			}
+		}
+	}
 }
 
 @media (max-width: 375px) {
-    .jumbotron-content-container {
-        width: 100% !important;
-        .jumbotron-content {
-            .row1 {  
-                .title {          
-                    font-size: 20px !important;
-                }  
-            }
-            .row2 {   
-                p  {
-                    font-size: 12px !important;
-                    line-height: 24px !important;
-                }
-            }
-        }
-    }
-    .platform {
-        h1 {
-            font-size: 16px !important;
-        }
-        .cards {
-            .card {
-                h3 {
-                    font-size: 14px !important;
-                }
-                img {
-                    width: 28px !important;
-                    height: 28px !important;
-                }
-                p {
-                    font-size: 11px !important;
-                    line-height: 24px !important;
-                }
-                a {
-                    font-size: 12px !important;
-                } 
-            }
-        } 
-    } 
-    .integrations {
-        .integrations-container {
-            h1 {
-                font-size: 14px !important; 
-                margin-bottom: 16px !important;
-             }
-             p {
-                 width: 90% !important;
-                 font-size: 12px !important;
-                 line-height: 24px;
-             }
-             .int__box {
-                width: 120px !important;
-                height: 80px !important;
-                margin: 12px !important;
-                background: white !important;
-                img {
-                    width: 100px !important;
-                }
-             }
-        }
-    }     
+	.jumbotron-content-container {
+		width: 100% !important;
+		.jumbotron-content {
+			.row1 {
+				.title {
+					font-size: 20px !important;
+				}
+			}
+			.row2 {
+				p {
+					font-size: 12px !important;
+					line-height: 24px !important;
+				}
+			}
+		}
+	}
+	.platform {
+		h1 {
+			font-size: 16px !important;
+		}
+		.cards {
+			.card {
+				h3 {
+					font-size: 14px !important;
+				}
+				img {
+					width: 28px !important;
+					height: 28px !important;
+				}
+				p {
+					font-size: 11px !important;
+					line-height: 24px !important;
+				}
+				a {
+					font-size: 12px !important;
+				}
+			}
+		}
+	}
+	.integrations {
+		.integrations-container {
+			h1 {
+				font-size: 14px !important;
+				margin-bottom: 16px !important;
+			}
+			p {
+				width: 90% !important;
+				font-size: 12px !important;
+				line-height: 24px;
+			}
+			.int__box {
+				width: 120px !important;
+				height: 80px !important;
+				margin: 12px !important;
+				background: white !important;
+				img {
+					width: 100px !important;
+				}
+			}
+		}
+	}
 }

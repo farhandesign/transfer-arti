@@ -648,6 +648,9 @@ header nav .menu__container-active {
 }
 
 @media (max-width: 1000px) {
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
   nav .logo {
     margin-left: 30px !important;
     font-size: 24px !important;

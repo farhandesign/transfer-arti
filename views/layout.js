@@ -120,7 +120,7 @@ module.exports = ({ content }) => {
           <!-- Request Demo -->
           <div class="d-flex">
           <div class="nav-link border-right" >
-          <a href="/">Contact Us</a>
+          <a class="pd-rg-10" href="/">Contact Us</a>
         </div>
           <a href="/demo">
             <button class="sales-btn">

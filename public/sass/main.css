@@ -633,6 +633,9 @@ header nav .menu__container-active {
   flex-direction: column;
 }
 
+.pd-rg-10 {
+  padding-right: 10px;
+}
 .dropdown-menu .dropdown-content .dc-sections .i-column a,
 .dropdown-menu .dropdown-content .dc-sections .i-column h4 {
   margin: 12px 40px;
@@ -647,6 +650,16 @@ header nav .menu__container-active {
   height: 180px;
 }
 
+@media (max-width: 1220px) {
+  .nav-link {
+    padding: 0.5rem 6px;
+  }
+}
+@media (max-width: 1170px) {
+  .nav-link {
+    padding: 0.5rem 0px;
+  }
+}
 @media (max-width: 1000px) {
   .nav-link {
     padding: 0.5rem 1rem;

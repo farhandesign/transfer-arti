@@ -1,4 +1,4 @@
-const layout = require('./layout');
+const layout = require("./layout");
 
 module.exports = () => {
   return layout({
@@ -91,9 +91,12 @@ module.exports = () => {
             </div>
           </div>
         </section>
+        
+        <!--  
         <div class="infographics">        
           <img src="/img/infographics.svg" alt="">
         </div>
+      
 
         <section class="integrations">
           <div class="integrations-container">
@@ -121,7 +124,7 @@ module.exports = () => {
             <a href="/demo">Request Demo</a>
           </div>
         </section>
-        
+        -->
       </section>
       
       <script type="text/javascript" src="/js/type-writer.js"></script> 
@@ -132,6 +135,6 @@ module.exports = () => {
           console.log('particles.json loaded...');
         });
       </script>
-    `
+    `,
   });
 };

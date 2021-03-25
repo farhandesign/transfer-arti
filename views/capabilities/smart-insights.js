@@ -1,9 +1,9 @@
-const layout = require('../layout');
+const layout = require("../layout");
 
 module.exports = () => {
-	return layout({
-		content: `
-      <section class="body-smart-insights">
+  return layout({
+    content: `
+      <section class="body-smart-insights" style="margin-top: 30px;">
         <div class="top">
           <div class="text-content">
             <h1>Smart Insights</h1>
@@ -70,6 +70,6 @@ module.exports = () => {
           <a href="/demo">Request Demo</a>
         </div>
       </section>
-    `
-	});
+    `,
+  });
 };

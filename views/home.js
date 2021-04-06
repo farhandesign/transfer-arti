@@ -41,10 +41,7 @@ module.exports = () => {
                 <img class="i" src="/img/icon-four.svg" alt="">
                 <h3>Smart Insights</h3>
               </div>
-              <p>Customizable dashboard which gives in-depth analysis of your company.
-                With just one glance, Artilytic's Smart Insights shows different 
-                trends of how your products and company is performing and how you 
-                can improve it.
+              <p>Smart Insights is a customizable dashboard that gives an overview of your company’s performance by presenting its analytics. In just one glance, you can view the stats and trends of your products as well as of your company. Artilytics’ Smart Insights also allow you to dive deeper into these analytics by suggesting ways to improve performance. 
               </p>
               <a href="/insights">Learn more</a>
             </div>
@@ -54,9 +51,7 @@ module.exports = () => {
                 <h3>Multi-Moment Marketing</h3>
               </div>
               
-              <p>Predictive Marketing Audience and moment marketing comes into play
-                through Signals, Sequence & Speed. Reach your customers at the right time-
-                right moment & right context.
+              <p>Signals, Sequence and Speed help activate Moment Marketing and Predictive Ad-Audience. With Moment Marketing, you can reach out to your customer with accurate content, when it is most appropriate and when there are higher chances of conversions. 
               </p>
               <a href="/marketing">Learn more</a>
             </div>
@@ -66,8 +61,7 @@ module.exports = () => {
                 <h3>Predictive Ad-Audience</h3>
               </div>
               
-              <p>Use Artilytic;s likelihood to purchase model to creatte Predictive
-                segments within your ad channels.
+              <p>Artilytics’ ‘Likelihood To Purchase’ Model is designed to provide you with Predictive Segments within your ad channels, so you can target the right audience. 
               </p>
               <a href="">Learn more</a>
             </div>
@@ -76,8 +70,7 @@ module.exports = () => {
                 <img class="i" src="/img/icon-two.svg" alt="">
                 <h3>Purchase Pattern Identification</h3>
               </div>
-              <p>Understand true customer patterns and identify them in real time to 
-                send out relevant offers.
+              <p>Identify your customer’s buying patterns in real time. Study these patterns to send out relevant deals and offers at the most appropriate time. 
               </p>
               <a href="">Learn more</a>
             </div>
@@ -86,7 +79,7 @@ module.exports = () => {
                 <img class="i" src="/img/icon-three.svg" alt="">
                 <h3>Campaign Trigger Portal</h3>
               </div>
-              <p>Send targeted campaigns and engage with your customers real time.</p>
+              <p>With the help of our analytics and Purchase Pattern Identification, design flawless, targeted campaigns, and keep your customers engaged. </p>
               <a href="/campaign-portal">Learn more</a>
             </div>
           </div>

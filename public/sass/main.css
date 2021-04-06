@@ -292,7 +292,7 @@ footer p {
 
 header {
   width: 100%;
-  height: 7vh;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,7 +385,7 @@ header nav .menu__container {
   position: absolute;
   width: 100%;
   height: 93vh;
-  top: 7vh;
+  top: 11vh;
   right: 0;
   background: white;
   z-index: 100;
@@ -902,7 +902,7 @@ footer .container .contact {
 
 footer .container .contact h5 {
   color: #5bc3c8;
-  margin: 10px 0;
+  margin: 3px ​0 10px;
 }
 
 footer .container .contact p {
@@ -913,7 +913,7 @@ footer .container .contact p {
 footer .container .social-media {
   width: 100%;
   height: auto;
-  margin: 0 10px;
+  margin: 30px 10px 0px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -925,6 +925,9 @@ footer .container .social-media {
   align-items: center;
 }
 
+.center-div a:hover {
+  color: white !important;
+}
 @media (max-width: 415px) {
   footer {
     font-size: 10px;
@@ -948,7 +951,8 @@ footer .container .social-media {
 
 .home-page .jumbotron {
   width: 100%;
-  height: 80vh;
+  height: 520px;
+  margin-bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1112,6 +1116,7 @@ footer .container .social-media {
 
 .home-page .platform .cards .card p {
   font-size: 14px;
+  margin-top: 18px;
   line-height: 28px;
 }
 
@@ -2134,6 +2139,16 @@ footer .container .social-media {
   font-size: 16px;
   color: #ff416c;
   margin-bottom: 20px;
+}
+.swal2-icon-success .swal2-title {
+  max-width: 103% !important;
+  width: 103%;
+}
+.mailTag {
+  color: #007bff !important;
+}
+.swal2-content {
+  padding: 0 0 !important;
 }
 
 .demo__container .demo__right form {

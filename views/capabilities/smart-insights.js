@@ -18,9 +18,7 @@ module.exports = () => {
             <div class="point">
               <img src="/img/capture-data.svg" alt="">
               <h4>Capture individual-level data no matter the source</h4>
-              <p>No matter what the source, Artilytics helps you create a custom & cohesive dashboard which on boards
-                different data sets from whichever source to power experiences.
-                Collect, store categorize and synchronize data from CR,.ESP,.DMP API and POS. 
+              <p>Smart Insights is a customizable dashboard that gives an overview of your company’s performance by presenting its analytics. In just one glance, you can view the stats and trends of your products as well as of your company. Artilytics’ Smart Insights also allow you to dive deeper into these analytics by suggesting ways to improve performance.  
               </p>
             </div>
             <div class="point">

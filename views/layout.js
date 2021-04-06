@@ -66,9 +66,7 @@ module.exports = ({ content }) => {
 
               
               <!-- Why Artilytics -->
-              <div class="nav-link">
-                <a href="/">What We Offer</a>
-              </div>
+            
 
               <div class="nav-link">
               What We Offer
@@ -141,8 +139,9 @@ module.exports = ({ content }) => {
               </div>
           
             </div>
-            <a href="/why-artilytics" class="lvl1 burger__item">Why Artilytics</a>
-
+     
+            
+            
             <a href="#" class="lvl1 burger__item">About Arti</a>
             <a href="#" class="lvl1 burger__item">Careers</a>
 
@@ -183,6 +182,14 @@ module.exports = ({ content }) => {
               <a href="#">Terms of Use</a>
             </div>
             <div class="list">
+            <div class="contact">
+            <h5>Contact Us</h5>
+            <p>Phone: 021-38942468</p>
+            <p>Email: <a href="mailto:reach@artilytics.com" class="mailTag">reach@artilytics.com</a></p>
+          </div>
+            </div>
+            <div class="list">
+
               <h5 class="center-text">Have a Question?</h5>
               <p class="center-text">Get in Touch!</p>
               <form>
@@ -210,11 +217,7 @@ module.exports = ({ content }) => {
           <div class="row">
 
           <div class="col-md-3">
-          <div class="contact">
-            <h5>Contact Us</h5>
-            <p>Phone: 021-38942468</p>
-            <p>Email: info@artilytics.com</p>
-          </div>
+
           <div class="social-media">
             <p>© 2020 Artilytics, All rights reserved.</p>
           </div>
@@ -230,12 +233,10 @@ module.exports = ({ content }) => {
 
 
           <div class="center-div">
-                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="https://www.linkedin.com/company/artilytics" class="fa fa-linkedin"></a>
 
-                  <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-instagram"></a>
+                  <a href="https://www.facebook.com/Artilytics-105989267449597/" class="fa fa-facebook"></a>
 
-        <a href="#" class="fa fa-twitter"></a>
         </div>
         </div>
           </div>

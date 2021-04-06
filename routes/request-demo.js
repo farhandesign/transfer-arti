@@ -1,5 +1,6 @@
 const express = require("express");
 const request = require("request");
+require("dotenv").config();
 
 const requestDemoTemplate = require("../views/demo/request-demo");
 
@@ -42,13 +43,14 @@ router.post("/demo", (req, res) => {
   //   },
   //   body: postData,
   // };
-
+  console.log(`${process.env.MAILCHIMP_KEY}`, "newwewewewewewewewe");
   const options = {
     // 5eb5236dc75014a4087342d9ab773e26-us1
+
     url: "https://us1.api.mailchimp.com/3.0/lists/f1cf5260b2",
     method: "POST",
     headers: {
-      Authorization: "Bearer 5eb5236dc75014a4087342d9ab773e26-us1",
+      Authorization: `${process.env.MAILCHIMP_KEY}`,
     },
     body: postData,
   };

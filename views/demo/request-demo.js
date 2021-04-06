@@ -79,7 +79,6 @@ module.exports = () => {
 
               },
               error: function (request, status, error) {
-                  serviceError();
                   document.getElementById("request_demo").disabled = false;
 
               }
